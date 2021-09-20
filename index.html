@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon"  href="" type="image">
+  <script src="https://kit.fontawesome.com/e5e76f2531.js" crossorigin="anonymous"></script>
+
+  <title>Travel</title>
+</head>
+<body>
+  <section class="showcase ">
+    <header>
+      <h2 class="logo">Travel</h2>
+      <div class="toggle">
+<!--         <i class="fa-regular fa-bars"></i>
+ -->      </div>
+    </header>
+     <video src="island.mp4" muted loop autoplay ></video> 
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop</h2>
+      <h3>Exploring The World</h3>
+      <p>Traveling is a very crucial part of life as it is the best way to get out of the busy schedule. It is also to experience life in different ways .Traveling is actually a good remedy for stress, anxiety and depression. It also improves the mental and physical health. We only have one life and we should thank it for making us more advanced creature on this planet. Not only do we get to experience the beauty of nature, different geographies ,topographies, and people.</p>
+      <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://facebo     ok.com" target="_blank">
+      <i class="fab fa-facebook-square fa-2x"></i></a></li>
+      <li><a href="https://instagram.com/imallannnn" target="_blank">
+        <i class="fab fa-instagram fa-2x"></i></a></li>
+    </ul>
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact </a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+    
+    menuToggle.addEventListener('click',() => {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>
